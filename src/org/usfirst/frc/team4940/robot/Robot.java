@@ -20,10 +20,11 @@ public class Robot extends IterativeRobot {
     }
 
     /**
-     * This function is called periodically during autonomous
+     * This function is called once during autonomous
      */
-    public void autonomousPeriodic() {
-
+    public void autonomousInit() {
+    	Autonomous auto = new Autonomous();
+    	auto.run(Map.PICKUPBOX);
     }
 
     /**

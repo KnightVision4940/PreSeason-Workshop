@@ -9,9 +9,12 @@ public class Map {
 	public static final int TOPELEVATOR = 2;
 	public static final int SWITCHROBOT = 1;
 	public static final int SWITCHELEVATOR = 0;
-	
-	
-	
+	/*
+	 * List of autonomous modes
+	 */
+	public static final int DRIVEFORWARD = 0;
+	public static final int PICKUPBOX = 1;
+	public static final int LIFTELEV = 2;
 	
 	
 	
